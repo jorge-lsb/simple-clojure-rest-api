@@ -1,13 +1,13 @@
 (ns simple-clojure-rest-api.diplomat.http-client
   (:require [cheshire.core :as json]
             [clj-http.client :as client]
-            [rest-api-tutorial.config.auth-config :as auth-config]
-            [rest-api-tutorial.schema.book :as schema.book]
-            [rest-api-tutorial.schema.movie :as schema.movie]
-            [rest-api-tutorial.adapters.book :as adapters.book]
-            [rest-api-tutorial.adapters.movie :as adapters.movie]
-            [rest-api-tutorial.adapters.character-profile :as adapters.character-profile]
-            [rest-api-tutorial.schema.character-profile :as schema.character-profile]
+            [simple-clojure-rest-api.config.auth-config :as auth-config]
+            [simple-clojure-rest-api.schema.book :as schema.book]
+            [simple-clojure-rest-api.schema.movie :as schema.movie]
+            [simple-clojure-rest-api.adapters.book :as adapters.book]
+            [simple-clojure-rest-api.adapters.movie :as adapters.movie]
+            [simple-clojure-rest-api.adapters.character-profile :as adapters.character-profile]
+            [simple-clojure-rest-api.schema.character-profile :as schema.character-profile]
             [schema.core :as s]))
 
 (def bookmark-settings
